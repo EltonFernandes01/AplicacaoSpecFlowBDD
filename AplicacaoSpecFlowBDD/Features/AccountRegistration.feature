@@ -10,6 +10,6 @@ Scenario Outline: Validação de regras para cadastro de contas
 	Then recebo a mensagem <mensagem>	
 	Examples:
 	| conta                    | mensagem                           |
-	| Conta de Teste do Thiago | Conta adicionada com sucesso!      |
+	| Conta	Elton              | Conta adicionada com sucesso!      |
 	|                          | Informe o nome da conta            |
 	| Conta mesmo nome         | Já existe uma conta com esse nome! |

@@ -76,7 +76,7 @@ namespace AplicacaoSpecFlowBDD.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Validação de regras para cadastro de contas")]
-        [NUnit.Framework.TestCaseAttribute("Conta de Teste do Thiago", "Conta adicionada com sucesso!", null)]
+        [NUnit.Framework.TestCaseAttribute("Conta\tElton", "Conta adicionada com sucesso!", null)]
         [NUnit.Framework.TestCaseAttribute("", "Informe o nome da conta", null)]
         [NUnit.Framework.TestCaseAttribute("Conta mesmo nome", "Já existe uma conta com esse nome!", null)]
         public virtual void ValidacaoDeRegrasParaCadastroDeContas(string conta, string mensagem, string[] exampleTags)

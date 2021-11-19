@@ -15,8 +15,8 @@ namespace SpecFlowSeleniumWebDriver.Steps
         private IWebElement element;
         private string text;
 
-        private const string Username = "thiagonogueira@hotmail.com.br";
-        private const string Password = "625836";
+        private const string Username = "elton@cit.com";
+        private const string Password = "123456";
 
         [Given(@"que estou logado na aplicação")]
         public void GivenQueEstouLogadoNaAplicacao()
@@ -29,7 +29,7 @@ namespace SpecFlowSeleniumWebDriver.Steps
             driver.FindElement(By.TagName("button")).Click();
             element = driver.FindElement(By.XPath("/html/body/div[1]"));
             text = element.Text;
-            Assert.AreEqual("Bem vindo, Thiago Nogueira dos Santos!", text);
+            Assert.AreEqual("Bem vindo, Elton!", text);
         }
 
         [When(@"cadastro a conta (.*)")]
