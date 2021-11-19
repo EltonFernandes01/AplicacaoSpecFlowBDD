@@ -76,7 +76,7 @@ namespace AplicacaoSpecFlowBDD.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Validação de regras para cadastro de contas")]
-        [NUnit.Framework.TestCaseAttribute("Conta\tElton", "Conta adicionada com sucesso!", null)]
+        [NUnit.Framework.TestCaseAttribute("Elton", "Conta adicionada com sucesso!", null)]
         [NUnit.Framework.TestCaseAttribute("", "Informe o nome da conta", null)]
         [NUnit.Framework.TestCaseAttribute("Conta mesmo nome", "Já existe uma conta com esse nome!", null)]
         public virtual void ValidacaoDeRegrasParaCadastroDeContas(string conta, string mensagem, string[] exampleTags)
@@ -87,7 +87,7 @@ namespace AplicacaoSpecFlowBDD.Features
             argumentsOfScenario.Add("mensagem", mensagem);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validação de regras para cadastro de contas", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7
-this.ScenarioInitialize(scenarioInfo);
+ this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);

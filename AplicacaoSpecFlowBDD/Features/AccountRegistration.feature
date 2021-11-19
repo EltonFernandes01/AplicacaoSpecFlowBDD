@@ -4,12 +4,13 @@ Feature: Account Registration
 	Gostaria de cadastrar contas
 	Para que eu possa distribuir meu dinheiro de uma forma mais organizada	
 	
-Scenario Outline: Validação de regras para cadastro de contas
+ Scenario Outline: Validação de regras para cadastro de contas
 	Given que estou logado na aplicação	
 	When cadastro a conta <conta>
 	Then recebo a mensagem <mensagem>	
 	Examples:
-	| conta                    | mensagem                           |
-	| Conta	Elton              | Conta adicionada com sucesso!      |
-	|                          | Informe o nome da conta            |
-	| Conta mesmo nome         | Já existe uma conta com esse nome! |
+	| conta            | mensagem                           |
+	| Elton		       | Conta adicionada com sucesso!      |
+	|                  | Informe o nome da conta            |
+	| Conta mesmo nome | Já existe uma conta com esse nome! |
+	
