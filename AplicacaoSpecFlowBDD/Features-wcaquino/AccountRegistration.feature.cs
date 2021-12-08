@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace AplicacaoSpecFlowBDD.Features
+namespace AplicacaoSpecFlowBDD.Features_Wcaquino
 {
     using TechTalk.SpecFlow;
     using System;
@@ -35,7 +35,7 @@ namespace AplicacaoSpecFlowBDD.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Account Registration", "\tComo um usuário \r\n\tGostaria de cadastrar contas\r\n\tPara que eu possa distribuir m" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features-wcaquino", "Account Registration", "\tComo um usuário \r\n\tGostaria de cadastrar contas\r\n\tPara que eu possa distribuir m" +
                     "eu dinheiro de uma forma mais organizada\t", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }

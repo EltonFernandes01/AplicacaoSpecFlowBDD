@@ -49,10 +49,6 @@ namespace SpecFlowSeleniumWebDriver.Steps
             Assert.AreEqual(mensagem, text);            
         }
 
-        [After]
-        public void CloseBrowser()
-        {
-            driver.Quit();
-        }
+       
     }    
 }

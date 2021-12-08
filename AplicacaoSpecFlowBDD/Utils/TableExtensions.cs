@@ -16,5 +16,5 @@ namespace SpecFlowSeleniumWebDriver.Utils
             }
             return dictionary;
         }
-    }
+    }  
 }
